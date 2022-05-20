@@ -1,34 +1,73 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-.wrapper{
+.wrapper {
     width: 1200px;
     margin: 0 auto;
 }
 
-.title{
+.arrow {
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+}
+
+.box {
+    border: 2px solid black;
+    background-color: #cccccc;
+    height: 500px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.text {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.title {
     text-align: center;
 }
 
-.title-1{
+.title-1 {
     font-size: 50px;
     margin: 25px 0 50px;
+    position: sticky;
+    top: 0;
+    padding: 20px 0;
+    background-color: white;
+    z-index: 3;
 }
 
-.title-1::before {
-    content: "!";
+.title-1::before,
+.title-1::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #cccccc;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
 }
 
 .title-1::after {
-    content: "!";
+    right: 0;
+    left: auto;
 }
 
 .title-1:hover {
     color: blue;
 }
 
-.text-1{
+.text-1 {
     font-size: 20px;
     background-color: #ccc;
     width: 500px;
@@ -37,23 +76,24 @@
     height: 300px;
     overflow: auto;
     /*overflow: hidden;*/
+    z-index: 2;
 }
 
-.text-1:hover{
+.text-1:hover {
     background-color: black;
     color: white;
 }
 
-.text-2{
+.text-2 {
     font-size: 18px;
     background-color: #ccc;
 }
 
-.text-3{
+.text-3 {
     font-style: italic;
 }
 
-.text-4{
+.text-4 {
     text-align: right;
     font-size: 14px;
 }
