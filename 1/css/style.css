@@ -45,6 +45,7 @@
     padding: 20px 0;
     background-color: white;
     z-index: 3;
+    transition: all .5s;
 }
 
 .title-1::before,
