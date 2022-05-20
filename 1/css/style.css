@@ -11,6 +11,23 @@
     text-align: center;
 }
 
+.title-1{
+    font-size: 50px;
+    margin: 25px 0 50px;
+}
+
+.title-1::before {
+    content: "!";
+}
+
+.title-1::after {
+    content: "!";
+}
+
+.title-1:hover {
+    color: blue;
+}
+
 .text-1{
     font-size: 20px;
     background-color: #ccc;
@@ -22,13 +39,20 @@
     /*overflow: hidden;*/
 }
 
+.text-1:hover{
+    background-color: black;
+    color: white;
+}
+
 .text-2{
     font-size: 18px;
     background-color: #ccc;
 }
+
 .text-3{
     font-style: italic;
 }
+
 .text-4{
     text-align: right;
     font-size: 14px;
