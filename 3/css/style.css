@@ -2,20 +2,3 @@
     box-sizing: border-box;
 }
 
-.wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.box {
-    width: 200px;
-    height: 200px;
-    border: 4px solid black;
-    font-size: 50px;
-    text-align: center;
-    line-height: 200px;
-    background-color: green;
-}
