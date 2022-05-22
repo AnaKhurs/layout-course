@@ -279,3 +279,25 @@ body {
 .expertise__item--marketing::before {
     background-image: url("../img/speakericon.svg");
 }
+
+.magic {
+    background: #F6F8FA;
+    background-image: url("../img/dog.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left 82%;
+}
+
+.magic__inner {
+    max-width: 470px;
+    margin-left: auto;
+    padding: 100px 0 190px;
+}
+
+.magic__title {
+    margin-bottom: 67px;
+}
+
+.magic__text p {
+    margin-bottom: 25px;
+}
