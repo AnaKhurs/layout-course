@@ -1,0 +1,138 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*a[class]{
+    text-decoration: none;
+}*/
+
+/*    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;*/
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #242121;
+}
+
+.header {
+    min-height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container__header {
+    max-width: 1195px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__top-inner {
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* padding-bottom: 255px;*/
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list-item + .menu__list-item {
+    margin-left: 40px;
+}
+
+.menu__list-link {
+    padding: 0 2px 10px;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+}
+
+.menu__list-link:hover {
+    border-bottom: solid 1px #00B2A0;
+}
+
+.container__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 98px);
+}
+
+.header__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 235px;
+    color: #0D302C;
+    margin-top: auto;
+}
+
+.header__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin-bottom: auto;
+}
+
+.header__icon{
+    margin-bottom: 45px;
+}
