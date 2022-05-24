@@ -147,6 +147,16 @@ body {
     line-height: 56px;
     padding-bottom: 100px;
     letter-spacing: 0.6px;
+    position: relative;
+}
+
+.about__title::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 45px;
+    height: 52px;
+    background-image: url("../img/line.svg");
 }
 
 .about__text p {
@@ -169,6 +179,4 @@ body {
     margin: 0 auto;
     background-color: #FFF;
     padding-bottom: 100px;
-    /*    padding: 0 10px;*/
-    /*    padding-bottom: 188px;*/
 }
