@@ -150,7 +150,7 @@ body {
     position: relative;
 }
 
-.about__title::after {
+.title::after {
     content: "";
     position: absolute;
     top: 20px;
@@ -179,4 +179,105 @@ body {
     margin: 0 auto;
     background-color: #FFF;
     padding-bottom: 100px;
+}
+
+.expertise {
+    background-color: #F8F8F8;
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1195px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.title {
+    color: #01353E;
+    position: relative;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    padding-bottom: 76px;
+}
+
+.expertise__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expertise__item {
+    position: relative;
+}
+
+.expertise__item-title {
+    color: #242121;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    max-width: 200px;
+    height: 56px;
+    margin-bottom: 15px;
+    padding-left: 65px;
+}
+
+.expertise__item-text {
+    color: #242121;
+    font-size: 14px;
+    line-height: 18px;
+    width: 350px;
+    margin-bottom: 100px
+}
+
+.expertise__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.expertise__item--live::before {
+    background-image: url("../img/live.svg");
+}
+
+.expertise__item--fly::before {
+    background-image: url("../img/fly.svg");
+}
+
+.expertise__item--learn::before {
+    background-image: url("../img/learn.svg");
+}
+
+.expertise__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expertise__info-items {
+    width: 350px;
+}
+
+.expertise__text {
+    width: 600px;
+}
+
+.expertise__text p {
+    padding-bottom: 30px;
+}
+
+.img_expertise__info-item {
+    display: flex;
+}
+
+.img_expertise__info-item span {
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.description {
+    padding-bottom: 10px;
 }
