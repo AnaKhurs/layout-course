@@ -281,3 +281,26 @@ body {
 .description {
     padding-bottom: 10px;
 }
+
+.magic {
+    background-image: url("../img/Rectangle 88.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+/*    width: 960px;
+    height: 825px;*/
+}
+
+.magic__inner {
+    max-width: 470px;
+    margin-right: auto;
+    padding: 100px 0 160px;
+}
+
+.magic__title {
+    margin-bottom: 25px;
+}
+
+.magic__text p {
+    margin-bottom: 30px;
+}
