@@ -301,3 +301,118 @@ body {
 .magic__text p {
     margin-bottom: 25px;
 }
+
+.portfolio {
+    padding: 140px 0 165px;
+}
+
+.portfolio__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.portfolio__btn {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0 4px 5px;
+    margin-right: 25px;
+
+}
+
+.portfolio__content {
+    column-count: 4;
+    column-gap: 25px;
+}
+
+.portfolio__item {
+    margin-bottom: 25px;
+}
+
+.portfolio__item img {
+    width: 100%;
+}
+
+.portfolio__add {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+    color: #242121;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 42px 15px 41px;
+    background-color: #F6F8FA;
+    margin-bottom: 130px;
+}
+
+.blockquote {
+    max-width: 650px;
+    margin: 0 auto 148px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    color: #242121;
+}
+
+.blockquote__author {
+    padding-top: 50px;
+    display: block;
+    color: #9E9E9E;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.portfolio__video {
+    background-image: url("../img/playBG.jpg");
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 165px;
+}
+
+.portfolio__numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio__numbers-item {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    color: #242121;
+    margin-bottom: 9px;
+}
+
+.portfolio__numbers-item span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 14px;
+    color: #333333;
+    display: block;
+}
+
+.portfolio__filter-btn {
+    margin-right: 40px;
+}
+
+.mixitup-control-active {
+    border-bottom: 1px solid #FCBB08;
+}
