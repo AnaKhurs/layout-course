@@ -330,10 +330,39 @@ body {
 .portfolio__content {
     column-count: 4;
     column-gap: 25px;
+    margin-bottom: 72px;
 }
 
 .portfolio__item {
     margin-bottom: 25px;
+    position: relative;
+}
+
+.portfolio__item-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #4C4A4A;
+    border: 12px solid #7D7C7C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.portfolio__item:hover .portfolio__item-link{
+    opacity: 1;
+
 }
 
 .portfolio__item img {
