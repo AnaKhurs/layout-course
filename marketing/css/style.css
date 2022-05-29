@@ -548,3 +548,60 @@ body {
     font-size: 12px;
     line-height: 16px;
 }
+
+.pricing {
+    background-color: #F6F8FA;
+    padding: 145px 0 160px;
+}
+
+.pricing__title {
+    margin-bottom: 90px;
+}
+
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.pricing__item {
+    background-color: #fff;
+    text-align: center;
+    padding: 24px 25px 50px;
+    width: 370px;
+}
+
+.pricing__item li {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 30px;
+}
+
+.pricing__item .pricing__item-name {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.pricing__item .pricing__item-num {
+    font-size: 80px;
+    line-height: 109px;
+    margin-bottom: 50px;
+}
+
+.pricing__item-num sup {
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.pricing__item-link {
+    margin-top: 70px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+    color: #242121;
+    font-family: 'Montserrat', sans-serif;
+}
