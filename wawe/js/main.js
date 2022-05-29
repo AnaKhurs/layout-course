@@ -1,5 +1,5 @@
 $(function () {
 
-    const mixer = mixitup('.portfolio__content');
+    const mixer = mixitup('.gallery__content');
 
 })
