@@ -448,3 +448,65 @@ body {
 .mixitup-control-active {
     border-bottom: 1px solid #FCBB08;
 }
+
+.slider-blog {
+    background-image: url("../img/sliderBG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left center;
+}
+
+.slider-blog__item {
+    padding: 300px 0 250px;
+}
+
+.slider-blog__item {
+    padding: 300px 0 250px 400px;
+}
+
+.slider-blog__item-title {
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    max-width: 700px;
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.slider-blog__item-description {
+    max-width: 700px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    font-weight: 300;
+}
+
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-dots li + li {
+    margin-left: 15px;
+}
+
+.slick-dots button {
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 0;
+    padding: 0;
+    border: none;
+
+}
+
+.slick-dots .slick-active button {
+    background-color: #00B2A0;
+}
