@@ -506,3 +506,31 @@ body {
 .slick-dots .slick-active button {
     background-color: #00B2A0;
 }
+
+.team {
+    padding: 10px 0 100px;
+}
+
+.team__items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team_name {
+    padding: 20px 0 5px;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #242121;
+}
+
+.team_position {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #242121;
+}
