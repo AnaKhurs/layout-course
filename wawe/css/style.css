@@ -453,15 +453,12 @@ body {
     background-image: url("../img/sliderBG.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: left center;
+    background-position: center center;
+    height: 800px;
 }
 
 .slider-blog__item {
-    padding: 300px 0 250px;
-}
-
-.slider-blog__item {
-    padding: 300px 0 250px 400px;
+    padding: 200px 0 100px 400px;
 }
 
 .slider-blog__item-title {
@@ -504,7 +501,6 @@ body {
     font-size: 0;
     padding: 0;
     border: none;
-
 }
 
 .slick-dots .slick-active button {
