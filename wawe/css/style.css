@@ -574,7 +574,7 @@ ul.pricing__item {
     margin: 45px 0;
 }
 
-.pricing__item .pricing__item-last{
+.pricing__item .pricing__item-last {
     padding-bottom: 60px;
 }
 
@@ -603,4 +603,117 @@ ul.pricing__item {
     letter-spacing: 1.2px;
     color: #242121;
     font-family: 'Montserrat', sans-serif;
+}
+
+.connection__map {
+    margin: 150px auto;
+    width: 1000px;
+}
+
+.form--inner {
+    display: flex;
+    padding-bottom: 200px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    padding-right: 30px;
+}
+
+.form-description {
+    background-color: #F8F8F8;
+    width: 600px;
+    height: 460px;
+}
+
+.form input,
+.form textarea {
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #DADADA;
+    /*    font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 3.70909px;
+        color: #888888;*/
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #00B2A0;
+    max-width: 260px;
+}
+
+.form textarea {
+    min-height: 200px;
+    resize: none;
+}
+
+.form button {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #242121;
+    text-transform: uppercase;
+    width: 350px;
+    height: 70px;
+    border: 1px solid #C4C4C4;
+    background-color: #FFF;
+    cursor: pointer;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.form-description-paragraph {
+    padding-top: 65px;
+    max-width: 400px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 65px;
+}
+
+ul.footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.footer__social-list {
+    padding: 0 10px;
+}
+
+.footer__social-link {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #242121;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+}
+
+.footer__social-link:hover {
+    color: #00B2A0;
+}
+
+.footer__bottom {
+    background-color: #00B2A0;
+    height: 200px;
+}
+
+.footer__bottom .logo__img {
+    margin: 0 auto;
+    padding-top: 70px;
 }
