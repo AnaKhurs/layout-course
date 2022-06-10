@@ -766,7 +766,8 @@ ul.footer__social {
     }
 
     .about__title,
-    .team__title {
+    .team__title,
+    .pricing__title {
         margin-bottom: 50px;
     }
 
@@ -774,7 +775,8 @@ ul.footer__social {
     .expertise,
     .portfolio,
     .slider-blog,
-    .team {
+    .team,
+    .pricing {
         padding: 75px 0;
     }
 
@@ -795,7 +797,9 @@ ul.footer__social {
         margin-right: 0;
     }
 
-    .team__items {
+    .team__items,
+    .pricing__items,
+    .clients__list {
         column-gap: 20px;
     }
 
@@ -971,6 +975,16 @@ ul.footer__social {
         line-height: 32px;
     }
 
+    .pricing__items {
+        display: block;
+    }
+
+    ul.pricing__item {
+        margin: 0 auto 25px;
+        max-width: 500px;
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 440px) {
@@ -992,6 +1006,15 @@ ul.footer__social {
 
     .portfolio__numbers-item {
         width: 100%;
+    }
+
+    .clients__list {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .clients__list li {
+        margin-bottom: 25px;
     }
 }
 
