@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    /*scroll-behavior: smooth; не поддерживается в сафари*/
+
 }
 
 *,
@@ -71,6 +73,19 @@ body {
     margin: 0 auto;
 }
 
+.header__top {
+    /*    position: sticky; !* не поддерживается в эксплоере*!
+        top: 0;
+        background-color: #FFFFFF;
+        z-index: 999;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    z-index: 999;
+}
+
 .header__top-inner {
     padding-bottom: 29px;
     display: flex;
@@ -112,6 +127,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    margin-top: 100px;
 }
 
 .header__content-inner {
@@ -780,6 +796,10 @@ ul.footer__social {
     .pricing,
     .clients {
         padding: 75px 0;
+    }
+
+    .header__top-inner {
+        padding-bottom: 5px;
     }
 
     .about__text p {
