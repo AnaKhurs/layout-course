@@ -767,7 +767,8 @@ ul.footer__social {
 
     .about__title,
     .team__title,
-    .pricing__title {
+    .pricing__titleб
+    .connection__title {
         margin-bottom: 50px;
     }
 
@@ -776,7 +777,8 @@ ul.footer__social {
     .portfolio,
     .slider-blog,
     .team,
-    .pricing {
+    .pricing,
+    .clients {
         padding: 75px 0;
     }
 
@@ -853,6 +855,32 @@ ul.footer__social {
 
     .portfolio__top {
         margin-bottom: 50px;
+    }
+
+    .connection {
+        background-image: none;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+
+    .footer__top {
+        padding-top: 75px;
+    }
+
+    .footer__logo {
+        margin-bottom: 40px;
+    }
+
+    ul.footer__social {
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footer__social-list {
+        width: 33.333%;
+        margin-bottom: 25px;
     }
 }
 
@@ -987,6 +1015,20 @@ ul.footer__social {
 
 }
 
+@media (max-width: 640px) {
+    .team__items {
+        display: block;
+    }
+
+    .team__item {
+        margin-bottom: 25px;
+    }
+
+    .team__item img {
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 440px) {
     .header__title {
         font-size: 36px;
@@ -1016,21 +1058,13 @@ ul.footer__social {
     .clients__list li {
         margin-bottom: 25px;
     }
+
+    .footer__social-list {
+        width: 50%;
+    }
+
 }
 
-@media (max-width: 640px) {
-    .team__items {
-        display: block;
-    }
-
-    .team__item {
-        margin-bottom: 25px;
-    }
-
-    .team__item img {
-        margin: 0 auto;
-    }
-}
 
 @media (max-width: 340px) {
     .expertise__item {
